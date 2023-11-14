@@ -20,8 +20,8 @@ sudo systemctl restart zabbix-server apache2
 sudo systemctl enable zabbix-server apache2
 ```
 
-`Скриншот к заданию 1
-![Авторизация в админке](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/install_zabbix.jpg)`
+`Скриншот к заданию 1`
+![Авторизация в админке](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/install_zabbix.jpg)
 
 
 ---
@@ -39,18 +39,18 @@ sudo systemctl enable zabbix-agent
 
 ```
 
-`Скриншоты к заданию 2
+`Скриншоты к заданию 2`
 ![Configuration > Hosts](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/configuration_hosts.jpg)
 ![Zabbix agent log](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/agent_log.jpg)
-![Monitoring > Latest Data](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/monitoring_latest.jpg)`
+![Monitoring > Latest Data](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/monitoring_latest.jpg)
 
 ---
 
 ### Задание 3
 
-`Скриншоты к заданию 3
+`Скриншоты к заданию 3`
 ![Latest Data > C: free space](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/free_space.png)
 ![Windows ok](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/windows_ok.png)
 ![Free space setup](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/free_space_setup.png)
-`
+
 
