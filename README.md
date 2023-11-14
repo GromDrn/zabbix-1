@@ -21,55 +21,36 @@ sudo systemctl enable zabbix-server apache2
 ```
 
 `Скриншот к заданию 1
-![скриншот 1]()`
+![Авторизация в админке](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/install_zabbix.jpg)`
 
 
 ---
 
 ### Задание 2
 
-`Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+```bash
+wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4%2Bdebian11_all.deb
+dpkg -i zabbix-release_6.0-4+debian11_all.deb
+apt update
+sudo apt install zabbix-agent -y
+sudo systemctl restart zabbix-agent
+sudo systemctl enable zabbix-agent
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
-```
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
-
+`Скриншоты к заданию 2
+![Configuration > Hosts](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/configuration_hosts.jpg)
+![Zabbix agent log](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/agent_log.jpg)
+![Monitoring > Latest Data](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/monitoring_latest.jpg)`
 
 ---
 
 ### Задание 3
 
-`Приведите ответ в свободной форме........`
-
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+`Скриншоты к заданию 3
+![Latest Data > C: free space](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/free_space.png)
+![Windows ok](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/windows_ok.png)
+![Free space setup](https://github.com/GromDrn/zabbix-1/blob/main/screenshots/free_space_setup.png)
+`
 
